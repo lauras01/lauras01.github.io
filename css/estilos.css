@@ -1,0 +1,530 @@
+@keyframes error1 {
+	0% {opacity: 1;}
+	100% { opacity: 0; }
+}
+@keyframes error2 {
+	0%{transform: scale(3);}
+	100%{transform: scale(1);}
+}
+@keyframes intro1{
+	0%{
+		opacity: 0; transform: translateY(20px);
+	}
+	100%{
+		opacity: 1; transform: translateY(0px);
+	}
+}
+@keyframes intro2{
+	0%{
+		opacity: 0; transform: translateX(-20px);
+	}
+	100%{
+		opacity: 1; transform: translateX(0px);
+	}
+}
+#main, html {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #efecea;
+	scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+header{
+	animation-name: intro1;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+.navbar-brand{
+	font-family: 'Martel', serif;
+}
+#background {
+	background-image: url("../img/bg2.png");
+	background-size: cover;
+	display: flex;
+	padding-top:14%;
+	padding-bottom: 12%;
+	text-align: center;
+	color: white;
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#biografia h1,#background h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#background p{
+	font-weight: lighter;
+}
+#peliculas p {
+	text-align: center;
+	font-weight: lighter;
+	margin: 1.5%;
+	font-size: 22px;
+}
+#peliculas {
+	padding-bottom: 2%;
+	animation-name: intro1;
+	animation-duration: 1.8s;
+	animation-delay: 0.9s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#biografia {
+	margin-left: 1%;
+	margin-right: 1%;
+	background-image: url(../img/biografia.jpg);
+	background-size: cover;
+	padding-top: 38%;
+	padding-bottom: 2%;
+	color: white;
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#biografia p {
+	text-align: right;
+	font-size: 18px;
+}
+#biografia1{
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#biografia1 p{
+	text-align: justify-all;
+	padding: 1.5%;
+	font-size: 18px;
+}
+#curriculum{
+	color: white;
+	background-image: url(../img/curriculum.png);
+	background-size: cover;
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+#curriculum h1 {
+	font-size: 95px;
+	font-weight: bold;
+	text-align: right;
+	}
+#curriculum a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	text-align: left;
+}
+#curriculum p {
+	color: black;
+}
+.imagen{
+	position: relative;
+}
+.text {
+	position: absolute;
+	font-size: 18px;
+	padding-left: 3%;
+	padding-bottom: 10%;
+	color: white;
+	bottom: -20%;
+	padding-top: 90%;
+	width: 92%;
+	opacity: 0;
+	transition: 0.5s;
+}
+.text:hover{
+	opacity: 1;
+	transform: translateY(-40px);
+}
+footer{
+	background-color: #0b181b;
+	color: white;
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+footer h1{
+	font-family: 'Martel', serif;
+	font-size: 39px;
+	text-align:center;
+}
+footer p{
+	font-size: 18px;
+	padding-top: 1%;
+	text-align: center; 
+}
+#adaptable h1 a{
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	transition: 1s;
+}
+#carrousel h1{
+	text-align: left;
+	font-size: 18px;
+}
+#carrousel p{
+	text-align: left;
+	font-size: 15px;
+}
+#carrousel h1 b a{
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+#carrousel a:hover {
+	color:#FFE57F;
+}
+#pelicula a:hover {
+	color:#FFD600;
+}
+
+#adaptable h1 a:hover {
+	color:#FFD600;
+}
+#carrousel, #adaptable {
+	animation-name: intro1;
+	animation-duration: 2.2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#info1{
+	animation-name: intro2;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 85%;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 3%;
+}
+
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 85%;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 3%;
+}
+
+.info h2 {
+	flex-direction: column;
+	width: 90%;
+	font-size: 50px;
+	text-align:left;
+	margin-left: 12%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	padding: 0;
+	color: black;
+	font-weight: bold;
+
+
+}
+#info3 {
+	width: 100%;
+	animation-name: intro2;
+	animation-duration: 2s;
+	animation-delay: 1.4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#info3 a {
+	color: black;
+}
+.container1{
+	display: flex;
+	justify-content:center;
+	margin-bottom: 0;
+}
+.container1 img{
+	width: 26%;
+	flex-wrap: wrap;
+	margin-right: 3%;
+}
+.container1 p{
+	width: 42%;
+	margin:2%;
+	text-align: justify;
+	box-sizing: border-box; 
+	margin-bottom: 10px;
+	margin-top: 10px;
+	flex-direction: column;
+	
+}
+#info2 {
+	animation-name: intro2;
+	animation-duration: 2s;
+	animation-delay: 1.4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#info2 p {
+	width: 50%;
+	text-align: justify;
+	box-sizing: border-box; 
+	margin-bottom: 10px;
+	margin-left: 38%;
+	margin-top: 10px;
+	flex-direction: column;
+
+}
+.img1, .container01{
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+	overflow-y: hidden; 
+}
+
+.img1 img,.container01 p {
+	width: 25.5%;
+	text-align: center;
+	font-weight: lighter;
+	transition: 1s;
+
+}
+
+.container01 p{
+	margin-top: 1%;
+}
+img .poster {
+	width: 50%;
+}
+#pelicula h3{
+	margin-top:2%;
+	margin-bottom: 2%;
+	font-size:20px;
+	font-weight: bold;
+}
+
+ #pelicula p, #fotografia p{
+	margin-top:2%;
+	margin-bottom: 2%;
+	font-size:18px;
+}
+
+#pelicula h1, #fotografia h1 {
+	font-size: 62px;
+	font-weight: bold;
+}
+#pelicula{
+	margin:auto;
+	padding-top: 1.5%;
+	border-top: solid 0.5px gray;
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+#poster1{
+	background-image:url(../img/poster1.png); 
+	padding: 50%;
+	background-size: cover;
+}
+#fotos, #fotografia {
+	margin:auto;
+	border-top: solid 0.5px gray;
+	
+}
+#fotos{
+	padding-top:  2%;
+	padding-bottom: 2%;
+	animation-name: intro1;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+header a{
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+}
+
+#pelicula a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	transition: 1s;
+}
+#fotografia a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+footer a:hover {
+	opacity: 0.7;
+	text-decoration: none;
+	color: white;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+#error01{
+	font-size: 19px;
+	width: 100%;
+	height: 710px;
+	font-weight: lighter;
+	position: relative;
+	}
+
+.columna5 a {
+	text-decoration: none;
+	color: black;
+}
+
+.columna5 a:hover {
+	color: red;
+	transition-duration: 1s;
+}
+
+img { width: 100%;
+}
+.error1 {
+	animation-name:error2;
+animation-duration: 30s;
+animation-timing-function: ease-out;
+}
+
+.error h1 {
+	font-size: 135px;
+	position:absolute;
+	top: 18%;
+	right: 40.5%;
+	color: white;
+}
+.error p {
+	position: absolute;
+	font-size: 25px;
+	top: 50%;
+	right: 42.5%;
+	color: white;
+}
+.columna5 p{
+	position: absolute;
+	top:60%;
+	right: 41.5%;
+	font-size: 20px;
+	width: 12.7%;
+	height: 3%;
+	background-color: white;
+	padding:1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: black
+
+}
+.red {
+	background-color: red;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	opacity: 0;
+	animation-name: error1;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 959px){
+	.intro {flex-wrap:wrap;display: flex;justify-content: center;}
+	.intro h1,#info2 h1,#info3 h1 {
+		font-size: 50px;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 3%}
+
+	.container1, #info2 p{
+		width: 80%;
+		margin:auto;
+		flex-direction: column;
+	}
+	.container1 p {
+		width: 80%;
+		font-size: 16px;
+	}
+	.container1 img {
+		display: none;
+	}
+	#curriculum {
+		text-align: center;
+	}
+	#curriculum h1{
+		text-align:center;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px){
+.intro {flex-wrap:wrap;display: flex;justify-content: center;}
+	.intro h1,#info2 h1,#info3 h1 {
+		font-size: 50px;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 3%}
+
+	.container1, #info2 p{
+		width: 80%;
+		margin:auto;
+		flex-direction: column;
+	}
+	.container1 p {
+		width: 75%;
+		font-size: 16px;
+	}
+	.container1 img {
+		display: none;
+	}
+	#curriculum h1{
+		font-size: 45px;
+		text-align:center;
+	}
+	#curriculum p{
+		font-size: 15px;
+	}
+	#info3 img{
+		width: 100%;
+		flex-direction: column;
+	}
+	#info3{
+		display: none;
+	}
+	#biografia1 p{
+		width: 90%;
+		margin: auto;
+		font-size: 15px;
+	}
+	#curriculum {
+		text-align: center;
+	}
+}
+ 
